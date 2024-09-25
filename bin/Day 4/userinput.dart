@@ -3,14 +3,18 @@ import 'dart:io';
 void main() {
   print("Enter your name");
   String name = stdin.readLineSync()!;
-  print(name);
+  print("you given the name : $name");
   print("Enter your age");
 
   int age = int.parse(stdin.readLineSync()!);
-  print(age);
+  print("you given the age : $age");
+
+  print("Enter your mark");
   dynamic mark = stdin.readLineSync()!;
-  print(mark);
+  print("you given the mark : $mark");
+
+  print("Enter your mark in double");
   double marks = double.parse(stdin.readLineSync()!);
-  print(mark);
+  print(marks);
 }
 
