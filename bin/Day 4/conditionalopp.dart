@@ -11,9 +11,9 @@ void main(){
   var reslt1=a>b ? (a>c ? a :c):(b>c ?b :c);
   print(reslt1);
 
-  // ?:
-  //?
-  //!
+  // ?:        ///conditional oop
+  //?          /// null aware oop
+  //           /// not
   int? age;
   print(age ?? "No result"); //null operator
 

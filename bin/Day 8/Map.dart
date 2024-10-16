@@ -1,12 +1,12 @@
 void main() {
-  Map<String, dynamic> map1 = {"name": "dishu", "age": 22, "mark": 25.4};
+  Map<String, dynamic> map1 = {"name": "anu", "age": 22, "mark": 25.4};
   print(map1);
   Map map2 = Map();
-  map2["name"] = "dishu";
+  map2["name"] = "anu";
   map2["age"] = "22";
   map2["mark"] = "25.4";
   print(map2);
-  var map3 = {1: "dishu", 2: "nunu", 3: "dinu"};
+  var map3 = {1: "anu", 2: "nunu", 3: "dinu"};
   print(map2["name"]);
   print(map2["age"]);
 
@@ -17,7 +17,7 @@ void main() {
   print(map2.containsKey("name"));
   print(map2.containsValue(25.4));
   var list1 = [1, 2, 3, 4];
-  var list2 = ["dishu", "nunu", "dinu"];
+  var list2 = ["anu", "nunu", "dinu"];
   Map map4 = Map.fromIterables(list1, list2);
   print(map4);
 
